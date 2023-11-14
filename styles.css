@@ -78,17 +78,20 @@ section iframe {
     margin-top: 20px; /* Espacio superior */
 }
 
-.reels-video {
-    width: 240px; /* Ajusta según sea necesario */
-    height: 240px; /* Ajusta según sea necesario */
-    margin: 5px;
+.video-link {
+    margin-bottom: 15px;
 }
 
-.video-container {
-    overflow-x: auto;
-    white-space: nowrap;
+.video-link a {
+    display: block;
+    padding: 10px;
+    background-color: #3498db; /* Azul */
+    color: #fff; /* Blanco */
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 0.3s ease-in-out;
 }
 
-.video-row {
-    white-space: normal;
+.video-link a:hover {
+    background-color: #2980b9; /* Azul más oscuro al pasar el ratón */
 }
