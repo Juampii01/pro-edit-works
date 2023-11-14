@@ -1,0 +1,79 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f0f8ff; /* Azul celeste */
+    color: #333;
+}
+
+header {
+    background-color: #3498db; /* Azul */
+    color: #ffffff; /* Blanco */
+    padding: 2em;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em; /* Espacio adicional entre h1 y p */
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 0;
+}
+
+section {
+    padding: 2em;
+    background-color: #ffffff; /* Blanco */
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    margin: 2em auto;
+    max-width: 800px;
+    text-align: left; /* Alineación izquierda */
+}
+
+section h2 {
+    color: #3498db; /* Azul */
+}
+
+section p {
+    margin-bottom: 20px;
+}
+
+section ul {
+    list-style: none;
+    padding: 0;
+}
+
+section li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #3498db; /* Azul */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #3498db; /* Azul */
+    color: #ffffff; /* Blanco */
+    padding: 1em;
+    text-align: center;
+}
+
+footer p {
+    font-size: 0.9em;
+    margin-bottom: 0;
+}
+
+section iframe {
+    width: 100%; /* O ajusta el ancho según tus preferencias */
+    height: 500px; /* O ajusta la altura según tus preferencias */
+    border: none; /* Elimina el borde del iframe */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px; /* Espacio superior */
+}
