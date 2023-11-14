@@ -78,6 +78,6 @@ section iframe {
     margin-top: 20px; /* Espacio superior */
 }
 
-body, h1, h2, h3 {
+body, h1, h2, h3,ul {
     text-transform: uppercase;
 }
