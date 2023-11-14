@@ -77,3 +77,7 @@ section iframe {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-top: 20px; /* Espacio superior */
 }
+
+body, h1, h2, h3, p, ul, li {
+    text-transform: uppercase;
+}
