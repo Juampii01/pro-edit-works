@@ -78,3 +78,17 @@ section iframe {
     margin-top: 20px; /* Espacio superior */
 }
 
+.reels-video {
+    width: 240px; /* Ajusta según sea necesario */
+    height: 240px; /* Ajusta según sea necesario */
+    margin: 5px;
+}
+
+.video-container {
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.video-row {
+    white-space: normal;
+}
