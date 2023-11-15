@@ -3,79 +3,40 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    background-color: #f0f8ff; /* Azul celeste */
+    background-color: #f2f2f2;
     color: #333;
 }
 
 header {
-    background-color: #3498db; /* Azul */
-    color: #ffffff; /* Blanco */
+    background-color: #3498db;
+    color: #ffffff;
     padding: 2em;
     text-align: center;
 }
 
 header h1 {
     font-size: 3em;
-    margin-bottom: 0.5em; /* Espacio adicional entre h1 y p */
 }
 
 header p {
     font-size: 1.2em;
-    margin-top: 0;
 }
 
 section {
     padding: 2em;
-    background-color: #ffffff; /* Blanco */
+    background-color: #ffffff;
     border-radius: 8px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
     margin: 2em auto;
     max-width: 800px;
-    text-align: left; /* Alineación izquierda */
 }
 
 section h2 {
-    color: #3498db; /* Azul */
+    color: #3498db;
 }
 
 section p {
     margin-bottom: 20px;
-}
-
-section ul {
-    list-style: none;
-    padding: 0;
-}
-
-section li {
-    margin-bottom: 10px;
-}
-
-a {
-    color: #3498db; /* Azul */
-    text-decoration: none;
-    font-weight: bold;
-}
-
-footer {
-    background-color: #3498db; /* Azul */
-    color: #ffffff; /* Blanco */
-    padding: 1em;
-    text-align: center;
-}
-
-footer p {
-    font-size: 0.9em;
-    margin-bottom: 0;
-}
-
-section iframe {
-    width: 100%; /* O ajusta el ancho según tus preferencias */
-    height: 500px; /* O ajusta la altura según tus preferencias */
-    border: none; /* Elimina el borde del iframe */
-    border-radius: 8px; /* Bordes redondeados */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-top: 20px; /* Espacio superior */
 }
 
 .video-link {
@@ -85,23 +46,117 @@ section iframe {
 .video-link a {
     display: block;
     padding: 10px;
-    background-color: #3498db; /* Azul */
-    color: #fff; /* Blanco */
+    background-color: #3498db;
+    color: #fff;
     text-decoration: none;
     border-radius: 6px;
     transition: background-color 0.3s ease-in-out;
 }
 
 .video-link a:hover {
-    background-color: #2980b9; /* Azul más oscuro al pasar el ratón */
+    background-color: #2980b9;
 }
 
+footer {
+    background-color: #3498db;
+    color: #ffffff;
+    padding: 1em;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    font-size: 0.9em;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+form:hover {
+    transform: scale(1.02);
+}
+
+label {
+    display: block;
+    margin-bottom: 12px;
+    font-weight: bold;
+    color: #3498db;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 1px solid #3498db;
+    border-radius: 6px;
+}
+
+button {
+    background-color: #3498db;
+    color: #ffffff;
+    padding: 14px 28px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease-in-out;
+    display: inline-block;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Estilo para la sección de Portafolio */
+
+section h2 {
+    color: #3498db;
+}
+
+section p {
+    margin-bottom: 20px;
+}
+
+.video-link {
+    margin-bottom: 15px;
+}
+
+.video-link a {
+    display: block;
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.video-link a:hover {
+    background-color: #2980b9;
+}
+
+/* Estilos para dispositivos móviles */
 @media only screen and (max-width: 600px) {
+    section h2 {
+        font-size: 24px;
+    }
+
     section p {
-        font-size: 14px; /* Reducir tamaño de fuente para dispositivos móviles */
+        font-size: 14px;
     }
 
     .video-link a {
-        font-size: 14px; /* Reducir tamaño de fuente para dispositivos móviles */
+        font-size: 14px;
     }
 }
