@@ -95,3 +95,13 @@ section iframe {
 .video-link a:hover {
     background-color: #2980b9; /* Azul más oscuro al pasar el ratón */
 }
+
+@media only screen and (max-width: 600px) {
+    section p {
+        font-size: 14px; /* Reducir tamaño de fuente para dispositivos móviles */
+    }
+
+    .video-link a {
+        font-size: 14px; /* Reducir tamaño de fuente para dispositivos móviles */
+    }
+}
